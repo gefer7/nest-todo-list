@@ -4,9 +4,9 @@ import { User } from "./user.entity";
 @Injectable()
 export class UserService {
 
-    private readonly users : User[] = [];
+    private readonly users: User[] = [];
 
-    async create(user: User){
+    async create(user: User) {
         this.users.push(user);
     }
 
